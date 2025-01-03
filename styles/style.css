@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: "Work Sans", serif;
+  font-weight: 700;
+  overflow-x: hidden;
+}
+.hero-section{
+  background-image: url('/images/image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.container{
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.column-wrapper{
+  display: flex;
+  gap: 24px;
+}
+.left-side{
+  flex: 0 0 50%;
+}
+.right-side{
+  flex: 0 0 50%;
+  padding: 200px 160px;
+}
+.hero-title{
+  width: 545px;
+  color: #FFFFFF;
+  transition: 1s;
+}
+.hero-title:hover{
+  color: rgb(250, 234, 11);
+  transform: scale(1.2);
+  padding-right: 200px;
+  padding-bottom: 30px;
+}
+.title{
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+.sub-title{
+  font-weight: 400;
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+.btn{
+  background-color: #FFFFFF;
+  color: rgb(47, 255, 102);
+  padding: 21px 25px 20px 26px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 20px;
+  transition: 2s;
+}
+.btn:hover{
+  background-color: yellow;
+  color: green;
+  transform: scale(1.1);
+}
+/*attributes*/
+.attributes{
+  background-image: url('/images/gradient2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.attributes img{
+  margin-top: 130px;
+  margin-left: 150px;
+  width:510px;
+  height: 600px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.attributes img:hover{
+ opacity: 0.5;
+}
+.attributes .right-side{
+  flex: 2;
+  padding-top: 230px;
+  padding-left: 100px;
+  width: 450px;
+ box-sizing: border-box;
+}
+.attributes .title{
+  font-size: 30px;
+}
+.attributes .sub-title{
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+  line-height: 26px;
+}
+.footer{
+  background-color: black;
+  color: #FFFFFF;
+  text-align: center;
+  height: 50px;
+  padding-top: 22px;
+}
